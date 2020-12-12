@@ -172,7 +172,7 @@ p.detail_text {
   .wrapper{
     width: 100%;
   }
-  hedding {
+  .heading {
     font-size: 45px;
     padding: 15px 0;
     margin: 0px;
@@ -196,25 +196,112 @@ p.detail_text {
 }
 /* meet us */
 #contact{
-  background:rgba(233, 231, 231, 0.863);
+  background:white;
   padding-top: 40px;
   padding-bottom: 40px;
-  color: #777;
+  color:rgb(54, 88, 143);  
 }
 #contact h1{
   text-align: center;
   font-size: 40px;
 }
-.contact-form{
-      padding: 15px;     
+#contact-form input,
+#contact-form textarea {
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 0;
 }
-.form-control{
-  border-radius: 0 !important;
-  border: none;  
+
+#contact-form label {
+    display: block;
+    margin-bottom: .2em;
+    font-size: 13px;
+    line-height: 13px;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    color: #000;
 }
-::placeholder{
-  color: #999 !important;
-}    
+
+#contact-form label.error {
+    margin-top: 10px;
+    margin-bottom: 1em;
+    font-size: 12px;
+    line-height: 12px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #D33E43;
+    margin-left: 10px
+}
+
+#contact-form input[type="text"].error,
+#contact-form input[type="password"].error,
+#contact-form input[type="date"].error,
+#contact-form input[type="datetime"].error,
+#contact-form input[type="datetime-local"].error,
+#contact-form input[type="month"].error,
+#contact-form input[type="week"].error,
+#contact-form input[type="email"].error,
+#contact-form input[type="number"].error,
+#contact-form input[type="search"].error,
+#contact-form input[type="tel"].error,
+#contact-form input[type="time"].error,
+#contact-form input[type="url"].error,
+#contact-form textarea.error {
+    border-color: #D33E43
+}
+
+textarea {
+    resize: none;
+}
+
+fieldset {
+    border: 0px;
+    margin: 0;
+    padding: 0
+}
+
+.required {
+    color: #e9266d
+}
+
+#success,
+#error {
+    display: none
+}
+
+#success p,
+#error p {
+    display: block;
+}
+
+#success p {
+    color: rgb(54, 88, 143);
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #425BB5;
+    margin-top: 10px;
+}
+
+#error p {
+    color: #D33E43;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #D33E43;
+    margin-top: 10px;
+}
+
+#submit {
+    background-color: rgb(54, 88, 143);
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    width: 100%;
+}
 .follow{
   background: #fff;
   margin:15px;
@@ -222,7 +309,7 @@ p.detail_text {
 }
 .contact-info .fa{
 margin: 10px;
-color: #007bff;
+color:rgb(54, 88, 143);
 font-weight: bold;
 }
 /* products */
@@ -263,7 +350,7 @@ font-weight: bold;
 .gallery-title
 {
     font-size: 36px;
-    color: black;
+    color:rgb(54, 88, 143);  
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
@@ -293,14 +380,14 @@ font-weight: bold;
     border: 1px solid grey !important;
     border-radius: 5px;
     text-align: center;
-    color: #ffffff  !important;
+    color:rgb(54, 88, 143) !important;
     background-color:black;
 
 }
 .btn-default:active .filter-button:active
 {
     background-color: black;
-    color: white;
+    color:rgb(54, 88, 143);  
 }
 
 .port-image
@@ -314,7 +401,7 @@ font-weight: bold;
 }
 .figure-caption{
   text-align: center;
-  color: black !important;
+  color:rgb(54, 88, 143) !important;  
   /* background-color: black; */
   font-size: 20px !important;
   font-family: Georgia, 'Times New Roman', Times, serif;
