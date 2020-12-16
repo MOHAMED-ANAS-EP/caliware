@@ -138,7 +138,7 @@ body {
 }
 p.detail_text {
   /* background: url(../images/detail_right_img.png) no-repeat scroll right top rgba(0, 0, 0, 0); */
-  color: rgb(54, 88, 143);
+  color: rgb(54, 88, 143) !important;
   font-size: 21px;
   height: auto;
   line-height: 35px;
