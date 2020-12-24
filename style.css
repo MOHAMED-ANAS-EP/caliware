@@ -14,7 +14,7 @@ body {
 } */
 /* navigation */
 .carousel-item {
-  padding-top: 63px;
+  padding-top: 80px;
   height: auto;
   min-height: 380px;
   background: no-repeat center center scroll;
@@ -176,7 +176,7 @@ p .detail_text {
     width: 50%;
 }}
 @media(max-width: 724px) and (min-width: 420px){
-  .navbar
+
   .wrapper{
     width: 100%;
   }
@@ -185,7 +185,7 @@ p .detail_text {
     padding: 15px 0;
     margin: 0px;
 }
-.carousel-item{padding-top:70px;}
+/* .carousel-item{padding-top:80px;} */
 } 
 @media (max-width: 1215px){.wrapper{padding: 0 15px;}}
 .col-xs-12{width: 100%;}
