@@ -322,9 +322,9 @@ color:rgb(54, 88, 143);
 font-weight: bold;
 }
 /* products */
-#products{
+/* #products{
   padding: 80px;
-}
+} */
 #products h1{font-size: 40px;color: rgb(54, 88, 143); text-align: center;padding: 50px;}
 .product-grid{width: 100%; height: auto; font-family:Raleway,sans-serif;text-align:center;margin-top:20px ; padding:0 0 135px;border:1px solid rgba(0,0,0,.1);overflow:hidden;position:relative;z-index:1}
 .product-grid .product-image{position:relative;transition:all .3s ease 0s}
